@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /*border: 1px solid red;*/
 }
 
 body {
@@ -39,6 +40,7 @@ body {
 
 .register {
   display: inline;
+  padding-right: 2rem;
 }
 
 .accountsearch {
@@ -51,14 +53,18 @@ body {
 }
 
 .searchbar {
+  margin: 0 auto;
 }
 
 .hero-container {
   display: block;
+  background: #F5F5F5;
+
 }
 
 .tieselection {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   margin: 0 30rem;
   list-style: none;
@@ -70,4 +76,35 @@ body {
 
 .tiecolor {
   text-align: center;
+
+}
+
+.tagline {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+}
+
+.three {
+  width: 70%;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.three-img {
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.quote {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer-main {
+  display: flex;
+}
+
+.footer-fourth {
 }
