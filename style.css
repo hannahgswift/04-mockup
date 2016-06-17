@@ -1,3 +1,54 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0 auto;
+}
+
+.announcementbar {
+  margin: 0;
+  width: 100%;
+  background: darkorange;
+  padding: 0.01rem;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom-style: groove;
+}
+
+.site-logo {
+  height: 8rem;
+  width: auto;
+}
+
+.nav-list {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.accountlinks {
+  text-align: right;
+}
+
+.signin {
+  display: inline;
+}
+
+.register {
+  display: inline;
+}
+
+.accountsearch {
+}
+
+.nav-list__item {
+  list-style: none;
+  display: inline;
+  padding: 0.5rem;
+}
+
+.searchbar {
+}
