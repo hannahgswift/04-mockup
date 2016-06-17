@@ -52,3 +52,22 @@ body {
 
 .searchbar {
 }
+
+.hero-container {
+  display: block;
+}
+
+.tieselection {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 30rem;
+  list-style: none;
+}
+
+.tie {
+  text-decoration: none;
+}
+
+.tiecolor {
+  text-align: center;
+}
