@@ -48,6 +48,7 @@ body {
 
 .accountlinks {
   text-align: right;
+  font-family: Arial Narrow, Arial, sans-serif;
 }
 
 .signin {
@@ -61,6 +62,7 @@ body {
 }
 
 .accountsearch {
+  margin-right: 5rem;
 }
 
 .nav-list__item {
@@ -69,6 +71,7 @@ body {
   padding: 0.5rem;
   font-family: Arial Narrow, Arial, sans-serif;
   color: black;
+  font-size: 1.5rem;
 
 }
 
@@ -80,15 +83,18 @@ body {
 .hero-container {
   display: block;
   background: #F5F5F5;
-
 }
 
 .tieselection {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 0 30rem;
+  /*justify-content: space-around;*/
+  /*margin: 0 30rem;*/
   list-style: none;
+  width: 90%;
+}
+
+.tie img {
+  /*width: 100%;*/
 }
 
 .tie {
@@ -142,7 +148,44 @@ body {
 
 .footer-main {
   display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.footer-main img {
+  height: 8rem;
+  width: auto;
 }
 
 .footer-fourth {
+  width: 100%;
+  margin: 2rem;
+}
+
+.footer-fourth i {
+  display: inline;
+}
+
+.footersub {
+  display: flex;
+}
+
+.footersub ul {
+  display: inline;
+  font-family: Arial Narrow, Arial, sans-serif;
+}
+
+.footersub li {
+  list-style: none;
+}
+
+.firstlist {
+  font-weight: bold;
+  margin-bottom: 0.2
+}
+
+.helpcenter {
+  background: gray;
 }
