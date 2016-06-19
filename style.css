@@ -12,7 +12,7 @@ body {
   width: 100%;
   background: #fa6938;
   padding: 0.01rem;
-  font-family: Arial Narrow, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: black;
 }
 
@@ -48,7 +48,7 @@ body {
 
 .accountlinks {
   text-align: right;
-  font-family: Arial Narrow, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .signin {
@@ -69,16 +69,24 @@ body {
   list-style: none;
   display: inline;
   padding: 0.5rem;
-  font-family: Arial Narrow, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: black;
   font-size: 1.5rem;
 
 }
 
 .searchbar {
+  background: #fff;
+  color: #fff;
   margin: 0 auto;
   text-align: center;
 }
+
+.fa-search {
+  position: absolute;
+  color: gray;
+}
+
 
 .hero-container {
   display: block;
@@ -103,7 +111,7 @@ body {
 
 .tiecolor {
   text-align: center;
-  font-family: Arial Narrow, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: black;
 }
 
@@ -111,7 +119,7 @@ body {
   display: block;
   text-align: center;
   padding: 1rem;
-  font-family: Arial Narrow, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 4rem;
 }
 
@@ -141,44 +149,72 @@ body {
 
 #story {
   text-transform: uppercase;
-  color: cornflowerblue;
+  color: #3498db;
   text-align: center;
   font-family: "ff-enzo-web",tahoma,sans-serif;
 }
 
 .footer-main {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 80%;
   margin-left: 5rem;
   margin-right: 5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 .footer-main img {
-  height: 8rem;
+  height: 7rem;
   width: auto;
 }
 
 .footer-fourth {
   width: 100%;
-  margin: 2rem;
 }
 
-.footer-fourth i {
-  display: inline;
+.subscribeme {
+  color: white;
+  background: #3498db;
+  border: none;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
 }
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-pinterest {
+  color: #cb2027;
+
+}
+
+.fa-facebook {
+  color: #3b5998;
+
+}
+
+.weeklypick {
+  color: #3498db;
+  background: none;
+}
+
 
 .footersub {
   display: flex;
+  background: #F5F5F5;
 }
 
 .footersub ul {
   display: inline;
-  font-family: Arial Narrow, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 1rem;
 }
 
 .footersub li {
   list-style: none;
+  padding: 0.2rem;
 }
 
 .firstlist {
@@ -187,5 +223,27 @@ body {
 }
 
 .helpcenter {
-  background: gray;
+  /*background: gray;*/
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 10rem;
+}
+
+.helpcenter p {
+  padding: 0.5rem;
+  display: block;
+}
+
+.contactus {
+  display: inline-block
+  font-size: 1rem;
+  color: white;
+  background: #3498db;
+  border: none;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.copyright {
+  background: #F5F5F5;
+  font-family: 'Source Sans Pro', sans-serif;
 }
