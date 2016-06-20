@@ -126,7 +126,8 @@ body {
 .three {
   display: flex;
   width: 80%;
-  align-content: stretch;
+  justify-content: center;
+  margin-left: 7rem;
 }
 
 .class {
@@ -223,14 +224,18 @@ body {
 }
 
 .helpcenter {
-  /*background: gray;*/
+  background: lightgray;
+  color: white;
   font-family: 'Source Sans Pro', sans-serif;
   margin-left: 10rem;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .helpcenter p {
-  padding: 0.5rem;
   display: block;
+  padding: 0;
+  margin: 0;
 }
 
 .contactus {
@@ -241,6 +246,7 @@ body {
   border: none;
   padding: 0.3rem;
   border-radius: 0.3rem;
+  margin-top: 0.5rem;
 }
 
 .copyright {
