@@ -32,7 +32,6 @@ body {
 .top-nav {
   display: flex;
   justify-content: space-between;
-  border-bottom-style: groove;
 }
 
 .site-logo {
@@ -43,12 +42,13 @@ body {
 
 .nav-list {
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  /*margin-bottom: 3rem;*/
 }
 
 .accountlinks {
   text-align: right;
   font-family: 'Source Sans Pro', sans-serif;
+  color: gray;
 }
 
 .signin {
@@ -82,6 +82,10 @@ body {
   text-align: center;
 }
 
+.searchbar input {
+  box-shadow: 0.3rem 0.3rem lightgray;
+}
+
 .fa-search {
   position: absolute;
   color: gray;
@@ -91,9 +95,12 @@ body {
 .hero-container {
   display: block;
   background: #F5F5F5;
+  border-top-style: groove;
 }
 
 .tieselection {
+  margin-top: 0;
+  padding-top: 0;
   display: flex;
   /*justify-content: space-around;*/
   /*margin: 0 30rem;*/
@@ -146,6 +153,7 @@ body {
   font-style: italic;
   line-height: 1.4;
   font-size: 2rem;
+  padding-top: 4rem;
 }
 
 #story {
@@ -153,6 +161,9 @@ body {
   color: #3498db;
   text-align: center;
   font-family: "ff-enzo-web",tahoma,sans-serif;
+  padding-bottom: 5rem;
+  border-bottom-style: groove;
+
 }
 
 .footer-main {
@@ -205,6 +216,7 @@ body {
 .footersub {
   display: flex;
   background: #F5F5F5;
+  border-top-style: groove;
 }
 
 .footersub ul {
@@ -250,6 +262,7 @@ body {
 }
 
 .copyright {
+  /*display: inline-block;*/
   background: #F5F5F5;
   font-family: 'Source Sans Pro', sans-serif;
 }
