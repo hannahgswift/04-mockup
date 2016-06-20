@@ -110,20 +110,19 @@ body {
   display: block;
   background: #F5F5F5;
   border-top-style: groove;
-  padding-left: 5rem;
 }
 
 .tieselection {
-  padding-top: 0;
   display: flex;
   justify-content: center;
   margin: auto;
   list-style: none;
-  width: 90%;
+  width: 80%;
+  padding-left: 0;
 }
 
 .tie img {
-  /*width: 100%;*/
+  width: 100%;
 }
 
 .tie {
@@ -176,7 +175,7 @@ body {
   font-style: italic;
   line-height: 1.4;
   font-size: 2rem;
-  padding-top: 4rem;
+  padding: 2rem;
 }
 
 #story {
@@ -204,7 +203,7 @@ body {
 }
 
 .footer-main img {
-  width: 80%;
+  width: 90%;
   height: auto;
 }
 
