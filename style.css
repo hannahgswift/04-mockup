@@ -143,6 +143,7 @@ body {
   width: 80%;
   justify-content: center;
   margin: auto;
+  position: relative;
 }
 
 .class {
@@ -151,15 +152,16 @@ body {
 
 .three-img {
   margin: 1rem;
+  position: relative;
 }
 
-.three-img p {
+.three-img-text {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
   transform: translate(12rem, -11rem);
+  position: absolute;
 }
-
 
 
 .quote {
