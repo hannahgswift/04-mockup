@@ -258,7 +258,8 @@ body {
   background: lightgray;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
-  margin-left: 10rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
   padding: 1rem;
   border-radius: 1rem;
 }
@@ -271,13 +272,17 @@ body {
 
 .contactus {
   display: inline-block
-  font-size: 1rem;
+  font-size: larger;
   color: white;
   background: #3498db;
   border: none;
-  padding: 0.3rem;
+  padding: 0.5rem;
   border-radius: 0.3rem;
   margin-top: 0.5rem;
+
+  float: right;
+  position: relative;
+  left: -2rem;
 }
 
 .copyright {
