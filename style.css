@@ -151,6 +151,7 @@ body {
 }
 
 .three-img {
+  width: 100%;
   margin: 1rem;
   position: relative;
 }
@@ -159,9 +160,27 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
-  transform: translate(12rem, -11rem);
-  position: absolute;
 }
+
+.bow-ties {
+  position: absolute;
+  top: 0rem;
+  left: 12rem;
+}
+
+.pocket-squares {
+  position: absolute;
+  top: 0rem;
+  left: 13rem;
+}
+
+.tie-bars {
+  position: absolute;
+  top: 0rem;
+  left: 13rem;
+}
+
+
 
 
 .quote {
