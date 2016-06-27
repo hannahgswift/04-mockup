@@ -138,48 +138,41 @@ body {
   font-size: 4rem;
 }
 
-.three {
+.container {
+  width: 100%;
+  display: inline-block;
+}
+
+.three-list {
   display: flex;
   justify-content: center;
-  width: 80%;
+  list-style: none;
+  width: 85%;
   margin: auto;
-  /*position: relative;*/
-  position: relative;
 }
 
-.three-img {
-  width: 30rem;
-  height: 15rem;
+.list-item {
+  float: left;
+  width: calc(100% / 3);
+  height: auto;
   margin: 1rem;
-  position: absolute;
 }
 
-.three-img-text {
-  font-family: 'Source Sans Pro', sans-serif;
-  transform: translate(12rem, 0rem);
+.bow-tie-wrapper {
   position: relative;
   width: 100%;
 }
 
+.img-text {
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  left: 62%;
+  top: -5%;
+}
+
 .bow-tie-img {
-  background-image: url("images/bow-ties@1.5x.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.pocket-square-img {
-  background-image: url("images/pocket-squares@1.5x.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.tie-bars-img {
-  background-image: url("images/tie-bars@1.5x.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
+  display: block;
+  width: 100%;
 }
 
 .quote {
