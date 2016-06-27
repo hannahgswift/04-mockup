@@ -140,48 +140,47 @@ body {
 
 .three {
   display: flex;
-  width: 80%;
   justify-content: center;
+  width: 80%;
   margin: auto;
+  /*position: relative;*/
   position: relative;
-}
-
-.class {
-  width: 100%;
 }
 
 .three-img {
-  width: 100%;
+  width: 30rem;
+  height: 15rem;
   margin: 1rem;
-  position: relative;
+  position: absolute;
 }
 
 .three-img-text {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.3rem;
-  font-weight: bold;
+  transform: translate(12rem, 0rem);
+  position: relative;
+  width: 100%;
 }
 
-.bow-ties {
-  position: absolute;
-  top: 0rem;
-  left: 12rem;
+.bow-tie-img {
+  background-image: url("images/bow-ties@1.5x.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-.pocket-squares {
-  position: absolute;
-  top: 0rem;
-  left: 13rem;
+.pocket-square-img {
+  background-image: url("images/pocket-squares@1.5x.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-.tie-bars {
-  position: absolute;
-  top: 0rem;
-  left: 13rem;
+.tie-bars-img {
+  background-image: url("images/tie-bars@1.5x.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
 }
-
-
-
 
 .quote {
   text-align: center;
