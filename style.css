@@ -7,6 +7,10 @@ body {
   margin: 0 auto;
 }
 
+ul {
+  padding-left: 0;
+}
+
 .announcementbar {
   margin: 0;
   width: 100%;
@@ -30,6 +34,16 @@ body {
 }
 
 .top-nav {
+  width: 100%;
+  display: flex;
+  /*justify-content: space-between;
+  align-items: center;*/
+}
+
+.top-nav__container {
+  max-width: 65rem;
+  width: 100%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +52,6 @@ body {
 .site-logo {
   height: 8rem;
   width: auto;
-  margin-left: 5rem;
 }
 
 .nav-list {
@@ -48,7 +61,6 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   color: gray;
   text-align: right;
-  margin-right: 5rem;
   padding: 0.2rem;
   /*text-decoration: none;*/
 }
@@ -58,7 +70,7 @@ body {
   color: gray;
 }
 
-.container {
+.top-container {
   display: block;
 }
 
@@ -74,7 +86,6 @@ body {
 }
 
 .accountsearch {
-  margin-right: 5rem;
   position: relative;
 }
 
@@ -112,7 +123,7 @@ body {
   justify-content: center;
   margin: auto;
   list-style: none;
-  width: 80%;
+  max-width: 65rem;
   padding-left: 0;
 }
 
@@ -147,7 +158,7 @@ body {
   display: flex;
   justify-content: center;
   list-style: none;
-  width: 85%;
+  max-width: 65rem;
   margin: auto;
 }
 
@@ -166,8 +177,8 @@ body {
 .img-text {
   position: absolute;
   font-family: 'Source Sans Pro', sans-serif;
-  left: 62%;
-  top: -5%;
+  top: -0.5rem;
+  right: 1rem;
 }
 
 .bow-tie-img {
@@ -199,7 +210,8 @@ body {
 .footer-main {
   display: flex;
   justify-content: center;
-  width: 80%;
+  max-width: 65rem;
+  /*width: 80%;*/
   /*margin-left: 5rem;
   margin-right: 5rem;*/
   font-family: 'Source Sans Pro', sans-serif;
@@ -245,7 +257,7 @@ body {
 
 .footersub {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   background: #F5F5F5;
   border-top-style: groove;
 }
@@ -258,7 +270,13 @@ body {
 
 .footersub li {
   list-style: none;
-  padding: 0.2rem;
+}
+
+.footersub-container {
+  display: flex;
+  justify-content: space-around;
+  width: 65rem;
+  max-width: 65rem;
 }
 
 .firstlist {
@@ -297,8 +315,15 @@ body {
   left: -2rem;
 }
 
+.copyright-container {
+  background: #F5F5F5;
+  width: 100%;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
 .copyright {
   background: #F5F5F5;
+  max-width: 65rem;
   font-family: 'Source Sans Pro', sans-serif;
   padding: 1rem;
   text-align: left;
