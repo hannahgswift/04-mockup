@@ -184,6 +184,10 @@ ul {
   /*margin: 1rem;*/
 }
 
+.list-item__middle {
+  margin: 0 1rem;
+}
+
 .bow-tie-wrapper {
   position: relative;
   width: 100%;
